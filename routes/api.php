@@ -10,14 +10,14 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 |
 | This file is where you may override any of the routes that are included
-| with VoyagerBreadReplaceKeyword.
+| with VoyagerBreadCampaign.
 |
 */
 
-Route::group(['as' => 'joy-voyager-bread-replace-keyword.'], function () {
+Route::group(['as' => 'joy-voyager-bread-campaign.'], function () {
     // event(new Routing()); @deprecated
 
-    $namespacePrefix = '\\' . config('joy-voyager-bread-replace-keyword.controllers.namespace') . '\\';
+    $namespacePrefix = '\\' . config('joy-voyager-bread-campaign.controllers.namespace') . '\\';
 
     // event(new RoutingAfter()); @deprecated
 });
