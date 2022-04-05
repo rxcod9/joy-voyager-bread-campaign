@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'campaigns',
                 'display_name_singular' => __('joy-voyager-bread-campaign::seeders.data_types.campaign.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-campaign::seeders.data_types.campaign.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-campaign voyager-news',
                 'model_name'            => 'Joy\\VoyagerBreadCampaign\\Models\\Campaign',
                 // 'policy_name'           => 'Joy\\VoyagerBreadCampaign\\Policies\\CampaignPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadCampaign\\Http\\Controllers\\VoyagerBreadCampaignController',
